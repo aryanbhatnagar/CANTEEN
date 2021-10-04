@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD692">
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/ic_menu_revert"
+        android:onClick="rEturn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/beverages_1"
+        android:textColor="#FB8C00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="603dp"
+        android:layout_height="812dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508"
+        app:srcCompat="@drawable/ic_bg21" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="95dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169"
+        app:srcCompat="@drawable/tea"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="95dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383"
+        app:srcCompat="@drawable/coffee"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="95dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603"
+        app:srcCompat="@drawable/juice"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="95dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818"
+        app:srcCompat="@drawable/cold_drink" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/cold_drink_rs_35"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/juice_rs_20"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/tea_rs_15"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/coffee_rs_25"
+        android:textColor="#FB8C00"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <Button
+        android:id="@+id/teaRem"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/bt_remove"
+        android:onClick="RemClick"
+        app:layout_constraintBottom_toBottomOf="@+id/teaAdd"
+        app:layout_constraintStart_toEndOf="@+id/teaAdd"
+        app:layout_constraintTop_toTopOf="@+id/teaAdd"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/teaAdd"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/bt_add"
+        android:onClick="AddClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <Button
+        android:id="@+id/coffeeAdd"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/bt_add"
+        android:onClick="AddClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <Button
+        android:id="@+id/juiceAdd"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/bt_add"
+        android:onClick="AddClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView11"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <Button
+        android:id="@+id/coldDrinkAdd"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/bt_add"
+        android:onClick="AddClick"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/coffeeRem"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/bt_remove"
+        android:onClick="RemClick"
+        app:layout_constraintBottom_toBottomOf="@+id/coffeeAdd"
+        app:layout_constraintStart_toEndOf="@+id/coffeeAdd"
+        app:layout_constraintTop_toTopOf="@+id/coffeeAdd"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/juiceRem"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/bt_remove"
+        android:onClick="RemClick"
+        app:layout_constraintBottom_toBottomOf="@+id/juiceAdd"
+        app:layout_constraintStart_toEndOf="@+id/juiceAdd"
+        app:layout_constraintTop_toTopOf="@+id/juiceAdd" />
+
+    <Button
+        android:id="@+id/coldDrinkRem"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/bt_remove"
+        android:onClick="RemClick"
+        app:layout_constraintBottom_toBottomOf="@+id/coldDrinkAdd"
+        app:layout_constraintStart_toEndOf="@+id/coldDrinkAdd"
+        app:layout_constraintTop_toTopOf="@+id/coldDrinkAdd" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">canteen</string>
+    <string name="ab1234_srmist_edu_in">  ab1234@srmist.edu.in</string>
+    <string name="pass_hint">  ********</string>
+    <string name="todo">TODO</string>
+    <string name="aryan_bhatnagar">Aryan Bhatnagar</string>
+    <string name="ra191103101">RA191103101...</string>
+    <string name="abc_srmist_edu_in">abc@srmist.edu.in</string>
+    <string name="pass">*******</string>
+    <string name="_9839">9839....</string>
+    <string name="beverages">Beverages</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="snacks">Snacks</string>
+    <string name="sweets">Sweets</string>
+    <string name="cold_drink_rs_35">COLD DRINK Rs 35/-</string>
+    <string name="coffee_rs_25">COFFEE Rs 25/-</string>
+    <string name="juice_rs_20">JUICE Rs 20/-</string>
+    <string name="tea_rs_15">TEA Rs 15/-</string>
+    <string name="popcorn_rs_30">POPCORN Rs 30/-</string>
+    <string name="chips_rs_20">CHIPS Rs 20/-</string>
+    <string name="cookies_rs_15">COOKIES Rs 15/-</string>
+    <string name="nachos_rs_45">NACHOS Rs 45/-</string>
+    <string name="ice_cream_rs_25">ICE CREAM Rs 25/-</string>
+    <string name="pastry_rs_25">PASTRY Rs 25/-</string>
+    <string name="chocolate_rs_20">CHOCOLATE Rs 20/-</string>
+    <string name="donnut_rs_40">DONNUT Rs 40/-</string>
+    <string name="welcome">Welcome!!</string>
+    <string name="burger_rs_35">BURGER Rs 35/-</string>
+    <string name="pizza_rs_85">PIZZA Rs 85/-</string>
+    <string name="maggi_rs_30">MAGGI Rs 30/-</string>
+    <string name="roll_rs_45">ROLL Rs 45/-</string>
+    <string name="snacks_1">SNACKS!!</string>
+    <string name="fast_food_1">FAST FOOD!!</string>
+    <string name="sweets_1">SWEETS</string>
+    <string name="beverages_1">BEVERAGES!!</string>
+    <string name="thank_you_n_for_using_srm_canteen_n_n_your_order_is_confirmed_n_n_you_may_collect_your_order_from_n_the_canteen_in_10_15_mins">THANK YOU!\n FOR USING SRM CANTEEN\n\n YOUR ORDER IS CONFIRMED\n\n YOU MAY COLLECT YOUR ORDER FROM\n THE CANTEEN IN 10-15 MINS</string>
+    <string name="book_another">BOOK ANOTHER</string>
+    <string name="confirm_order">CONFIRM ORDER</string>
+    <string name="my_cart">MY CART</string>
+
+
+</resources>
